@@ -1,9 +1,14 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "totem-layouts.dtsi"
+
+&physical_layout0 {
+    transform = <&default_transform>;
+};
 
 / {
     chosen {
         zmk,ksan = &mock_kscan;
-        zmk,matrix-transform = &default_transform; 
+        zmk,physical-layout = &physical_layout0; 
     };
 
     mock_kscan: mock_kscan_0 {
