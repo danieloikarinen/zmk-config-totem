@@ -31,10 +31,10 @@
         nav_num {
             display-name = "nav num";
             bindings = <
-       &kp NUMBER_1    &kp NUMBER_2   &kp NUMBER_3      &kp NUMBER_4  &kp N5          &kp NUMBER_6  &kp N7         &kp N8        &kp N9     &kp N0
-       &kp LEFT_SHIFT  &kp BACKSPACE  &kp ESCAPE        &kp DEL       &kp TAB         &kp LEFT      &kp DOWN       &kp UP_ARROW  &kp RIGHT  &kp NUHS
-&mo 4  &kp LCTRL       &kp LEFT_ALT   &kp LC(LEFT_GUI)  &kp LC(V)     &kp CAPSLOCK    &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &kp LS(FSLH)  &kp LEFT_SHIFT
-                                      &trans            &trans        &trans          &trans        &trans         &trans
+       &kp NUMBER_1    &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4        &kp N5          &kp NUMBER_6  &kp N7         &kp N8        &kp N9     &kp N0
+       &kp LEFT_SHIFT  &kp BACKSPACE  &kp ESCAPE    &kp DEL             &kp TAB         &kp LEFT      &kp DOWN       &kp UP_ARROW  &kp RIGHT  &kp NUHS
+&mo 4  &kp LCTRL       &kp LEFT_ALT   &kp LEFT_GUI  &kp LC(LEFT_SHIFT)  &kp CAPSLOCK    &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &kp LS(FSLH)  &kp LEFT_SHIFT
+                                      &trans        &trans              &trans          &trans        &trans         &trans
             >;
         };
 
