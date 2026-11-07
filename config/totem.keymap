@@ -41,10 +41,10 @@
         sym_func {
             display-name = "sym";
             bindings = <
-           &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp RA(NUMBER_4)  &kp LS(N5)               &kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
-           &trans            &kp NUHS          &trans            &kp LS(MINUS)     &kp RA(NUBS)             &kp MINUS         &kp EQUAL         &kp RA(N7)  &kp RA(N0)  &kp LS(BACKSLASH)
-&kp GRAVE  &trans            &kp LEFT_ALT      &kp NUBS          &kp LS(NUBS)      &kp RA(RIGHT_BRACKET)    &kp LS(EQUAL)     &kp RA(NUMBER_2)  &kp RA(N8)  &kp RA(N9)  &kp LS(SLASH)      &tog 5
-                                               &trans            &trans            &trans                   &trans            &trans            &trans
+           &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)       &kp RA(NUMBER_4)  &kp LS(N5)               &kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
+           &trans            &kp NUHS          &kp LS(RIGHT_BRACKET)  &kp LS(MINUS)     &kp RA(NUBS)             &kp MINUS         &kp RA(MINUS)     &kp RA(N7)  &kp RA(N0)  &kp LS(BACKSLASH)
+&kp GRAVE  &trans            &kp LEFT_ALT      &kp NUBS               &kp LS(NUBS)      &kp RA(RIGHT_BRACKET)    &kp LS(EQUAL)     &kp RA(NUMBER_2)  &kp RA(N8)  &kp RA(N9)  &kp LS(SLASH)      &tog 5
+                                               &trans                 &trans            &trans                   &trans            &trans            &trans
             >;
         };
 
