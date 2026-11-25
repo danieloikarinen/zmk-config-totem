@@ -39,7 +39,7 @@
         };
 
         sym_func {
-            display-name = "sym";
+            display-name = "symfunc";
             bindings = <
            &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)       &kp RA(NUMBER_4)  &kp LS(N5)               &kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
            &trans            &kp NUHS          &kp LS(RIGHT_BRACKET)  &kp LS(MINUS)     &kp RA(NUBS)             &kp MINUS         &kp RA(MINUS)     &kp RA(N7)  &kp RA(N0)  &kp LS(BACKSLASH)
@@ -70,13 +70,33 @@
 
         game {
             bindings = <
-        &kp NUMBER_1  &kp N2    &kp N3        &kp N4     &kp N5    &trans  &trans  &trans  &trans  &trans
-        &trans        &kp LEFT  &kp UP_ARROW  &kp RIGHT  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans    &kp DOWN      &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans        &trans     &trans    &trans  &trans  &trans
+                &trans  &trans  &trans  &trans        &trans    &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans        &trans    &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                &trans  &kp LEFT_ALT  &mo 6     &trans  &trans  &trans
             >;
 
             label = "game";
+        };
+
+        nng {
+            display-name = "nng";
+            bindings = <
+       &kp NUMBER_1    &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4        &kp N5          &kp NUMBER_6  &kp N7         &kp N8        &kp N9     &kp N0
+       &kp LEFT_SHIFT  &kp BACKSPACE  &kp ESCAPE    &kp DEL             &kp TAB         &kp LEFT      &kp DOWN       &kp UP_ARROW  &kp RIGHT  &kp NUHS
+&mo 7  &kp LCTRL       &kp LA(TAB)    &kp LG(TAB)   &kp LC(LEFT_SHIFT)  &kp CAPSLOCK    &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &kp LS(FSLH)  &kp LEFT_SHIFT
+                                      &trans        &trans              &trans          &trans        &trans         &trans
+            >;
+        };
+
+        r_on_l {
+            display-name = "r on l";
+            bindings = <
+              &kp P          &kp O       &kp I      &kp U      &kp Y    &kp Y  &kp U      &kp I           &kp O    &kp P
+              &kp SEMICOLON  &kp L       &kp K      &kp J      &kp H    &kp H  &kp J      &kp K           &kp L    &kp SEMI
+&kp LEFT_WIN  &kp SLASH      &kp PERIOD  &kp COMMA  &kp M      &kp N    &kp N  &kp M      &kp COMMA       &kp DOT  &kp FSLH  &kp APOS
+                                         &kp LCTRL  &kp SPACE  &mo 1    &mo 2  &kp ENTER  &kp LEFT_SHIFT
+            >;
         };
     };
 
