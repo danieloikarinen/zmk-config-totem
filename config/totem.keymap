@@ -93,7 +93,7 @@
             bindings = <
        &kp ESCAPE     &kp N7        &kp N8        &kp N9        &kp N0          &kp NUMBER_6  &kp N7         &kp N8        &kp N9     &kp N0
        &kp TAB        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LG(TAB)     &kp LEFT      &kp DOWN       &kp UP_ARROW  &kp RIGHT  &kp NUHS
-&mo 7  &kp BACKSPACE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp CAPSLOCK    &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &kp LS(FSLH)  &kp LEFT_SHIFT
+&mo 7  &kp BACKSPACE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp CAPSLOCK    &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &kp LS(FSLH)  &kp LEFT_GUI
                                     &trans        &trans        &trans          &trans        &trans         &trans
             >;
         };
