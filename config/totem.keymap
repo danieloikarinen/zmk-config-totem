@@ -79,10 +79,10 @@
 
         wow {
             bindings = <
-              &trans  &trans  &trans  &trans          &trans    &trans  &trans  &trans  &trans  &trans
-              &trans  &trans  &trans  &trans          &trans    &trans  &trans  &trans  &trans  &trans
-&kp LEFT_ALT  &trans  &trans  &trans  &trans          &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                              &trans  &kp LEFT_SHIFT  &mo 6     &mo 2   &trans  &trans
+              &trans  &trans  &trans  &trans          &trans    &trans  &trans  &trans     &trans  &trans
+              &trans  &trans  &trans  &trans          &trans    &trans  &trans  &trans     &trans  &trans
+&kp LEFT_ALT  &trans  &trans  &trans  &trans          &trans    &trans  &trans  &trans     &trans  &trans  &trans
+                              &trans  &kp LEFT_SHIFT  &mo 6     &mo 2   &trans  &kp SPACE
             >;
 
             label = "wow";
